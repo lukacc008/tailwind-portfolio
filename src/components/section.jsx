@@ -35,7 +35,7 @@ export default function Section() {
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            <div class="relative pl-16" data-aos="fade-right">
+            <div class="relative pl-16" data-aos="flip-right">
               <dt class="text-base font-semibold leading-7 text-gray-900">
                 <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                   <JavascriptIcon fontSize="large" />
@@ -47,7 +47,7 @@ export default function Section() {
                 suspendisse semper morbi. Odio urna massa nunc massa.
               </dd>
             </div>
-            <div class="relative pl-16" data-aos="fade-left">
+            <div class="relative pl-16" data-aos="flip-left">
               <dt class="text-base font-semibold leading-7 text-gray-900">
                 <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                   <GitHubIcon />
@@ -59,7 +59,7 @@ export default function Section() {
                 eget. Sem sodales gravida quam turpis enim lacus amet.
               </dd>
             </div>
-            <div class="relative pl-16" data-aos="fade-right">
+            <div class="relative pl-16" data-aos="flip-right">
               <dt class="text-base font-semibold leading-7 text-gray-900">
                 <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                   <CssIcon fontSize="large" />
@@ -71,7 +71,7 @@ export default function Section() {
                 Lobortis auctor congue commodo diam neque.
               </dd>
             </div>
-            <div class="relative pl-16" data-aos="fade-left">
+            <div class="relative pl-16" data-aos="flip-left">
               <dt class="text-base font-semibold leading-7 text-gray-900">
                 <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                   <HttpIcon fontSize="large" />
@@ -83,7 +83,7 @@ export default function Section() {
                 aliquet hac quis. Id hac maecenas ac donec pharetra eget.
               </dd>
             </div>
-            <div class="relative pl-16" data-aos="fade-right">
+            <div class="relative pl-16" data-aos="flip-right">
               <dt class="text-base font-semibold leading-7 text-gray-900">
                 <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                   <StorageIcon fontSize="medium" />
@@ -95,7 +95,7 @@ export default function Section() {
                 aliquet hac quis. Id hac maecenas ac donec pharetra eget.
               </dd>
             </div>
-            <div class="relative pl-16" data-aos="fade-left">
+            <div class="relative pl-16" data-aos="flip-left">
               <dt class="text-base font-semibold leading-7 text-gray-900">
                 <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                   <HttpIcon fontSize="large" />
