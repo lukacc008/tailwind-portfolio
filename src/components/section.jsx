@@ -12,8 +12,7 @@ import StorageIcon from "@mui/icons-material/Storage";
 export default function Section() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
+      duration: 700,
     });
   }, []);
 
