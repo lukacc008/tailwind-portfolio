@@ -9,7 +9,7 @@ import CssIcon from "@mui/icons-material/Css";
 import HttpIcon from "@mui/icons-material/Http";
 import StorageIcon from "@mui/icons-material/Storage";
 
-export default function Section() {
+export default function Skills() {
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -17,13 +17,15 @@ export default function Section() {
   }, []);
 
   return (
-    <div class="mt-60 py-24 sm:py-32">
+    <div class="mt-60 py-24 sm:py-32 bg-plum">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
-          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p
+            class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl text-gold"
+          >
             Main skills
           </p>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
+          <p class="mt-6 text-lg leading-8 text-gold">
             As a dedicated ReactJS developer, I possess a diverse set of skills
             and expertise aimed at crafting robust and user-centric web
             applications. With a deep understanding of modern web development
@@ -35,73 +37,85 @@ export default function Section() {
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             <div class="relative pl-16" data-aos="flip-right">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  <JavascriptIcon fontSize="large" />
+              <dt
+                class="text-base font-semibold leading-7 text-gold"
+              >
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo">
+                  <JavascriptIcon fontSize="large"/>
                 </div>
                 JavaScript
               </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">
+              <dd class="mt-2 text-base leading-7 text-gold bg-indigo rounded-lg p-4">
                 Morbi viverra dui mi arcu sed. Tellus semper adipiscing
                 suspendisse semper morbi. Odio urna massa nunc massa.
               </dd>
             </div>
             <div class="relative pl-16" data-aos="flip-left">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <dt
+                class="text-base font-semibold leading-7 text-gold"
+              >
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo">
                   <GitHubIcon />
                 </div>
                 Git/GitHub
               </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">
+              <dd class="mt-2 text-base leading-7 text-gold bg-indigo rounded-lg p-4">
                 Sit quis amet rutrum tellus ullamcorper ultricies libero dolor
                 eget. Sem sodales gravida quam turpis enim lacus amet.
               </dd>
             </div>
             <div class="relative pl-16" data-aos="flip-right">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <dt
+                class="text-base font-semibold leading-7 text-gold"
+              >
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo">
                   <CssIcon fontSize="large" />
                 </div>
                 CSS
               </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">
+              <dd class="mt-2 text-base leading-7 text-gold bg-indigo rounded-lg p-4">
                 Quisque est vel vulputate cursus. Risus proin diam nunc commodo.
                 Lobortis auctor congue commodo diam neque.
               </dd>
             </div>
             <div class="relative pl-16" data-aos="flip-left">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <dt
+                class="text-base font-semibold leading-7 text-gold"
+              >
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo">
                   <HttpIcon fontSize="large" />
                 </div>
                 Backend connection
               </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">
+              <dd class="mt-2 text-base leading-7 text-gold bg-indigo rounded-lg p-4">
                 Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis
                 aliquet hac quis. Id hac maecenas ac donec pharetra eget.
               </dd>
             </div>
             <div class="relative pl-16" data-aos="flip-right">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <dt
+                class="text-base font-semibold leading-7 text-gold"
+              >
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo">
                   <StorageIcon fontSize="medium" />
                 </div>
                 State management
               </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">
+              <dd class="mt-2 text-base leading-7 text-gold bg-indigo rounded-lg p-4">
                 Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis
                 aliquet hac quis. Id hac maecenas ac donec pharetra eget.
               </dd>
             </div>
             <div class="relative pl-16" data-aos="flip-left">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <dt
+                class="text-base font-semibold leading-7 text-gold"
+              >
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo">
                   <HttpIcon fontSize="large" />
                 </div>
                 Backend connection
               </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">
+              <dd class="mt-2 text-base leading-7 text-gold bg-indigo rounded-lg p-4">
                 Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis
                 aliquet hac quis. Id hac maecenas ac donec pharetra eget.
               </dd>

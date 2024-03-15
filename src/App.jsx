@@ -1,13 +1,13 @@
 import Header from "./components/header";
 import Home from "./components/home";
-import Section from "./components/section";
+import Skills from "./components/skills";
 
 function App() {
   return (
     <div>
       <Header />
-      <Home />
-      <Section />
+    <div id="home"><Home /></div>
+    <div id="section"><Skills /></div>
     </div>
   );
 }
