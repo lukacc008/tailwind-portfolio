@@ -26,3 +26,6 @@ dist-ssr
 # Ignore package.json and package-lock.json
 package.json
 package-lock.json
+
+# Ignore .env file
+*.env
