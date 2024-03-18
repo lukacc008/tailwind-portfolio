@@ -25,7 +25,13 @@ export default function Header() {
         smooth={true}
         offset={60}
         duration={500}>Skills</Link>
-        <a className="hover:text-gold" href="#contact">Contact</a>
+        <Link className="hover:text-gold" href="#contact"
+        activeClass="active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={60}
+        duration={1000}>Contact</Link>
         <a className="hover:text-gold" href="#projects">Projects</a>
       </div>
     </div>
