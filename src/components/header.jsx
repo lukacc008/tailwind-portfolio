@@ -30,7 +30,7 @@ export default function Header() {
         to="contact"
         spy={true}
         smooth={true}
-        offset={60}
+        offset={-100}
         duration={1000}>Contact</Link>
         <a className="hover:text-gold" href="#projects">Projects</a>
       </div>
