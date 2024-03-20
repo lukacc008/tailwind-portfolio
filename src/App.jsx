@@ -3,6 +3,7 @@ import Home from "./components/home";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import About from "./components/about";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div id="section">
         <Skills />
+      </div>
+      <div id="about">
+        <About />
       </div>
       <div id="contact">
         <Contact />
