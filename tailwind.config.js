@@ -7,6 +7,7 @@ export default {
         gold: "#FEC804",
         indigo: "#181B46",
         plum: "#7A2D59",
+        gray: '#393f4d'
       },
     },
   },
