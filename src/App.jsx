@@ -22,7 +22,7 @@ function App() {
         <Contact />
       </div>
       <div>
-        <Footer id='footer'/>
+        <Footer id="footer" />
       </div>
     </div>
   );

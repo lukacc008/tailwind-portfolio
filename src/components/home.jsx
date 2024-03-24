@@ -1,16 +1,8 @@
 import React, { useEffect } from "react";
 
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({
-      duration: 4000,
-      easing: "ease-in-out",
-    });
-  }, []);
-
   return (
     <div
       className="flex flex-col items-center justify-center mt-80 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"

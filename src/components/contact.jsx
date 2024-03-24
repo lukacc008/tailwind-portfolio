@@ -1,8 +1,19 @@
+import { useRef, useEffect } from "react";
+
 import emailjs from "emailjs-com";
-import { useRef } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Contact() {
   const formRef = useRef(null);
+
+//   useEffect(() => {
+//     AOS.init({
+//       duration: 4000,
+//       easing: "ease-in-out",
+//     });
+//   }, []);
 
   function sendEmail(e) {
     e.preventDefault();
@@ -29,7 +40,12 @@ export default function Contact() {
 
   return (
     <div className="flex items-center justify-center p-12 bg-indigo py-20">
-      <div className="mx-auto w-full max-w-[600px] lg:text-center">
+      <div
+        className="mx-auto w-full max-w-[600px] lg:text-center"
+        data-aos="flip-up"
+        data-aos-duration={1500}
+        data-aos-offset="0"
+      >
         <h1 className="mt-2 mb-20 text-3xl font-bold tracking-tight sm:text-4xl text-gold">
           CONTACT ME
         </h1>

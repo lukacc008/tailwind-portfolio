@@ -19,7 +19,7 @@ export default function About() {
           <button
             key={index}
             onClick={() => handleButtonClick(index)}
-            className="bg-indigo text-gold hover:bg-indigo active:bg-gold rounded-xl p-2 focus:outline-none focus:ring focus:ring-gold"
+            className="bg-indigo text-gold hover:bg-indigo active:bg-gold rounded-xl p-2 focus:outline-none focus:ring focus:ring-gold hover:ring hover:ring-gold"
           >
             {label}
           </button>
