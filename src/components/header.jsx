@@ -27,11 +27,11 @@ export default function Header() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-black bg-opacity-70 p-4">
+    <div className="sticky top-0 z-50 bg-green p-4">
       <div className="flex flex-row justify-between items-center">
-        <div className="flex flex-col sm:flex-row sm:items-center gap-3 text-lg font-semibold tracking-wide">
+        <div className="flex flex-row gap-3 font-semibold tracking-wide">
           <Link
-            className="hover:text-gold"
+            className="hover:text-gold sm:text-xs"
             href="#home"
             activeClass="active"
             to="home"
@@ -43,20 +43,20 @@ export default function Header() {
             Home
           </Link>
           <Link
-            className="hover:text-gold"
+            className="hover:text-gold sm:text-xs"
             href="#about"
             activeClass="active"
             to="section"
             spy={true}
             smooth={true}
-            offset={60}
+            offset={-50}
             duration={500}
           >
             Skills
           </Link>
           <Link
-            className="hover:text-gold"
-            href="#About"
+            className="hover:text-gold sm:text-xs"
+            href="#features"
             activeClass="active"
             to="about"
             spy={true}
@@ -64,10 +64,10 @@ export default function Header() {
             offset={-250}
             duration={1000}
           >
-            About project
+            Features
           </Link>
           <Link
-            className="hover:text-gold"
+            className="hover:text-gold sm:text-xs"
             href="#contact"
             activeClass="active"
             to="contact"
@@ -80,11 +80,17 @@ export default function Header() {
           </Link>
         </div>
         <button
-          className="bg-gray hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          onClick={handleDownload}
-        >
+        className="bg-gray text-white font-bold py-2 px-4 rounded hidden md:block lg:block"
+        onClick={handleDownload}
+      >
         <FileDownloadOutlinedIcon /> Download CV
-        </button>
+      </button>
+      <button
+        className="bg-gray text-white font-bold py-2 px-4 rounded md:hidden lg:hidden"
+        onClick={handleDownload}
+      >
+        <FileDownloadOutlinedIcon /> CV
+      </button>
       </div>
     </div>
   );
