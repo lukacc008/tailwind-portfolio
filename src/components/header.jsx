@@ -4,9 +4,10 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 
 export default function Header() {
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+
+  // const scrollToTop = () => {
+  //   scroll.scrollToTop();
+  // };
 
   const handleDownload = () => {
     const url = "src/assets/cv.pdf";
@@ -29,21 +30,21 @@ export default function Header() {
   return (
     <div className="sticky top-0 z-50 bg-green p-4">
       <div className="flex flex-row justify-between items-center">
-        <div className="flex flex-row gap-3 font-semibold tracking-wide">
+        <div className="flex flex-row gap-3 font-semibold tracking-wide max-[500px]:text-xs max-[500px]:gap-2">
           <Link
-            className="hover:text-gold sm:text-xs"
+            className="hover:text-gold"
             href="#home"
             activeClass="active"
             to="home"
             spy={true}
             smooth={true}
-            onClick={scrollToTop}
+            // onClick={scrollToTop}
             offset={-360}
           >
             Home
           </Link>
           <Link
-            className="hover:text-gold sm:text-xs"
+            className="hover:text-gold"
             href="#about"
             activeClass="active"
             to="section"
@@ -55,7 +56,7 @@ export default function Header() {
             Skills
           </Link>
           <Link
-            className="hover:text-gold sm:text-xs"
+            className="hover:text-gold"
             href="#features"
             activeClass="active"
             to="about"
@@ -67,7 +68,7 @@ export default function Header() {
             Features
           </Link>
           <Link
-            className="hover:text-gold sm:text-xs"
+            className="hover:text-gold"
             href="#contact"
             activeClass="active"
             to="contact"
@@ -80,13 +81,13 @@ export default function Header() {
           </Link>
         </div>
         <button
-        className="bg-gray text-white font-bold py-2 px-4 rounded hidden md:block lg:block"
+        className="bg-gray text-white font-bold py-2 px-4 rounded hidden md:block lg:block hover:text-gold"
         onClick={handleDownload}
       >
         <FileDownloadOutlinedIcon /> Download CV
       </button>
       <button
-        className="bg-gray text-white font-bold py-2 px-4 rounded md:hidden lg:hidden"
+        className="bg-gray text-white font-bold py-2 px-4 rounded md:hidden lg:hidden hover:text-gold"
         onClick={handleDownload}
       >
         <FileDownloadOutlinedIcon /> CV
