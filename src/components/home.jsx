@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 export default function Home() {
   return (
     <div
-      className="flex flex-col items-center justify-center mt-80 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
+      className="flex flex-col items-center justify-center mt-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="5000"
